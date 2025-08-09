@@ -36,6 +36,5 @@ python app.py
 - `requirements.txt` - dependencies
 
 ## Notes
-- This demo uses a synthetic dataset and is for learning/demo purposes only.
 - Replace the model with one trained on the real `creditcard.csv` dataset for production.
 "# CreditCardFraudDetection" 
