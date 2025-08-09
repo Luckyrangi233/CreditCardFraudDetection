@@ -1,0 +1,85 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Credit Card Fraud Detection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body class="bg-light">
+    <div class="container py-5">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h1 class="card-title">💳 Credit Card Fraud Detection</h1>
+          <p class="card-text">Predict transaction fraud using a trained machine learning model. You can either enter features manually or upload a CSV.</p>
+          <hr>
+          <h5>Manual Prediction</h5>
+          <form method="post">
+            <div class="row">
+              <div class="col-md-3 mb-2">
+                <label class="form-label">V1</label>
+                <input type="number" step="any" class="form-control" name="V1" value="0">
+              </div>
+              <div class="col-md-3 mb-2">
+                <label class="form-label">V2</label>
+                <input type="number" step="any" class="form-control" name="V2" value="0">
+              </div>
+              <div class="col-md-3 mb-2">
+                <label class="form-label">V3</label>
+                <input type="number" step="any" class="form-control" name="V3" value="0">
+              </div>
+              <div class="col-md-3 mb-2">
+                <label class="form-label">V4</label>
+                <input type="number" step="any" class="form-control" name="V4" value="0">
+              </div>
+              <div class="col-md-3 mb-2">
+                <label class="form-label">V5</label>
+                <input type="number" step="any" class="form-control" name="V5" value="0">
+              </div>
+              <div class="col-md-3 mb-2">
+                <label class="form-label">V6</label>
+                <input type="number" step="any" class="form-control" name="V6" value="0">
+              </div>
+              <div class="col-md-3 mb-2">
+                <label class="form-label">V7</label>
+                <input type="number" step="any" class="form-control" name="V7" value="0">
+              </div>
+              <div class="col-md-3 mb-2">
+                <label class="form-label">V8</label>
+                <input type="number" step="any" class="form-control" name="V8" value="0">
+              </div>
+              <div class="col-md-3 mb-2">
+                <label class="form-label">V9</label>
+                <input type="number" step="any" class="form-control" name="V9" value="0">
+              </div>
+              <div class="col-md-3 mb-2">
+                <label class="form-label">V10</label>
+                <input type="number" step="any" class="form-control" name="V10" value="0">
+              </div>
+
+              <div class="col-md-3 mb-2">
+                <label class="form-label">Amount</label>
+                <input type="number" step="any" class="form-control" name="Amount" value="10.0">
+              </div>
+            </div>
+            <div class="mt-3">
+              <button type="submit" name="predict_single" class="btn btn-primary">Predict</button>
+            </div>
+          </form>
+          <hr>
+          <h5>Batch Prediction (CSV upload)</h5>
+          <form method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+              <input class="form-control" type="file" name="file" accept=".csv">
+            </div>
+            <button class="btn btn-success" type="submit" name="upload_csv">Upload & Predict</button>
+          </form>
+          <hr>
+          <p class="text-muted small">Sample CSV with columns: V1..V10, Amount. A sample file is included in the dataset/ folder.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
