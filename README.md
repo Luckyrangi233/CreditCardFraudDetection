@@ -1,4 +1,23 @@
+💳 Credit Card Fraud Detection
+This project predicts whether a credit card transaction is fraudulent or genuine using a trained machine learning model.
 
+Features Used in Prediction
+V1, V2, V3, ..., V10: These are anonymized features derived from the original transaction data using mathematical transformations (like PCA) to protect sensitive information. They are numbers that describe the transaction patterns.
+
+Amount: The actual amount of money involved in the transaction.
+
+Note: Some feature values may be negative because of the mathematical transformations applied.
+
+How Prediction Works
+You can enter transaction details manually (values for V1 to V10 and Amount) and get a prediction.
+
+Or, you can upload a CSV file containing many transactions to check them all at once.
+
+The model will classify each transaction as:
+
+0 = Genuine transaction
+
+1 = Fraudulent transaction
 # Credit Card Fraud Detection - Flask Web App
 
 This is a demo Flask web app for credit card fraud detection. It uses a Logistic Regression model trained on a synthetic dataset for demonstration purposes.
