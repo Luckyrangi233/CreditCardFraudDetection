@@ -1,4 +1,5 @@
 💳 Credit Card Fraud Detection
+<img width="1676" height="880" alt="Screenshot 2025-09-02 232308" src="https://github.com/user-attachments/assets/d0b50777-8c88-45c9-91ec-b6646774a2eb" />
 This project predicts whether a credit card transaction is fraudulent or genuine using a trained machine learning model.
 
 Features Used in Prediction
