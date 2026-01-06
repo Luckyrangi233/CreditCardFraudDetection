@@ -59,4 +59,3 @@ python app.py
 ## Notes
 - Replace the model with one trained on the real `creditcard.csv` dataset for production.
 "# CreditCardFraudDetection" 
-<img width="1635" height="910" alt="image" src="https://github.com/user-attachments/assets/c343b6ab-12e3-4f9f-9b7b-c7816e1477d1" />
