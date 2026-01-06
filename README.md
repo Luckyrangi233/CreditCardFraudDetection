@@ -8,7 +8,7 @@ Amount: The actual amount of money involved in the transaction.
 
 
 Note: Some feature values may be negative because of the mathematical transformations applied.
-![Uploading Screenshot 2025-09-02 232308.png…]()
+
 
 How Prediction Works
 You can enter transaction details manually (values for V1 to V10 and Amount) and get a prediction.
@@ -59,3 +59,4 @@ python app.py
 ## Notes
 - Replace the model with one trained on the real `creditcard.csv` dataset for production.
 "# CreditCardFraudDetection" 
+<img width="1635" height="910" alt="image" src="https://github.com/user-attachments/assets/c343b6ab-12e3-4f9f-9b7b-c7816e1477d1" />
