@@ -6,7 +6,9 @@ V1, V2, V3, ..., V10: These are anonymized features derived from the original tr
 
 Amount: The actual amount of money involved in the transaction.
 
+
 Note: Some feature values may be negative because of the mathematical transformations applied.
+![Uploading Screenshot 2025-09-02 232308.png…]()
 
 How Prediction Works
 You can enter transaction details manually (values for V1 to V10 and Amount) and get a prediction.
